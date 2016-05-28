@@ -1,0 +1,2 @@
+a=`vgs -o +vg_name`||exit 11
+echo $a
